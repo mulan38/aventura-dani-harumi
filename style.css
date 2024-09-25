@@ -1,0 +1,28 @@
+body{
+color:black;
+background:rgb(175, 175, 170);
+font-family: "Playpen Sans", system-ui;
+font-size: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+button{
+color:rgb(8, 8, 8);
+background:rgb(90, 89, 85);
+font-family: "Playpen Sans", system-ui;
+font-size: 20px;
+}
+
+.passo{
+display: none;
+}
+
+.passo.ativo{
+    display: block
+}
+
+img{
+    height: 500px;
+}
